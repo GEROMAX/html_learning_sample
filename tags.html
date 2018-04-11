@@ -8,6 +8,12 @@
 
 <body>
 
+    <div style="text-align: right;">
+        <a href="index.html" style="margin-left: 10px; text-decoration: none; color: #0000EE;">Home</a>
+        <a href="tags.html" style="margin-left: 10px; text-decoration: none; color: #0000EE;">HTML Tags</a>
+        <a href="moby_dick.html" style="margin-left: 10px; text-decoration: none; color: #0000EE;">Moby Dick</a>
+    </div>
+
     <h1>Important HTML tags</h1>
 
     <a href="https://www.flickr.com/photos/jdhancock/3814523970">
@@ -30,131 +36,215 @@
     <h2>Block Elements</h2>
 
     <table>
-        <tr>
-            <th>Tag</th>
-            <th>Name</th>
-            <th>Purpose</th>
-        </tr>
-        <tr>
-            <td>
-                <code>h1</code>&ndash;
-                <code>h6</code>
-            </td>
-            <td>headings</td>
-            <td>include a heading (levels 1&ndash;6)</td>
-        </tr>
-        <tr>
-            <td>
-                <code>p</code>
-            </td>
-            <td>paragraph</td>
-            <td>include a paragraph of text</td>
-        </tr>
-        <tr>
-            <td>
-                <code>table</code>
-            </td>
-            <td>table</td>
-            <td>include a table</td>
-        </tr>
-        <tr>
-            <td>
-                <code>tr</code>
-            </td>
-            <td>table row</td>
-            <td>include a row of data</td>
-        </tr>
-        <tr>
-            <td>
-                <code>th</code>
-            </td>
-            <td>table header</td>
-            <td>make a table header</td>
-        </tr>
-        <tr>
-            <td>
-                <code>td</code>
-            </td>
-            <td>table data</td>
-            <td>include a table data cell</td>
-        </tr>
+        <tbody>
+            <tr>
+                <td class="align_left">
+                    <strong>Tag</strong>
+                </td>
+                <td class="align_left">
+                    <strong>Name</strong>
+                </td>
+                <td class="align_left">
+                    <strong>Purpose</strong>
+                </td>
+            </tr>
+            <tr>
+                <td class="align_left">
+                    <code class="tt">h1</code>–
+                    <code class="tt">h6</code>
+                </td>
+                <td class="align_left">headings</td>
+                <td class="align_left">include a heading (levels 1–6)</td>
+            </tr>
+            <tr>
+                <td class="align_left">
+                    <code class="tt">p</code>
+                </td>
+                <td class="align_left">paragraph</td>
+                <td class="align_left">include a paragraph of text</td>
+            </tr>
+            <tr>
+                <td class="align_left">
+                    <code class="tt">table</code>
+                </td>
+                <td class="align_left">table</td>
+                <td class="align_left">include a table</td>
+            </tr>
+            <tr>
+                <td class="align_left">
+                    <code class="tt">tr</code>
+                </td>
+                <td class="align_left">table row</td>
+                <td class="align_left">include a row of data</td>
+            </tr>
+            <tr>
+                <td class="align_left">
+                    <code class="tt">th</code>
+                </td>
+                <td class="align_left">table header</td>
+                <td class="align_left">make a table header</td>
+            </tr>
+            <tr>
+                <td class="align_left">
+                    <code class="tt">td</code>
+                </td>
+                <td class="align_left">table data</td>
+                <td class="align_left">include a table data cell</td>
+            </tr>
+            <tr>
+                <td class="align_left">
+                    <code class="tt">div</code>
+                </td>
+                <td class="align_left">division</td>
+                <td class="align_left">define block-level section in document</td>
+            </tr>
+            <tr>
+                <td class="align_left">
+                    <code class="tt">header</code>
+                </td>
+                <td class="align_left">header</td>
+                <td class="align_left">label the page header</td>
+            </tr>
+            <tr>
+                <td class="align_left">
+                    <code class="tt">ol</code>
+                </td>
+                <td class="align_left">ordered list</td>
+                <td class="align_left">list elements in numerical order</td>
+            </tr>
+            <tr>
+                <td class="align_left">
+                    <code class="tt">ul</code>
+                </td>
+                <td class="align_left">unordered list</td>
+                <td class="align_left">list elements whose order doesn’t matter</td>
+            </tr>
+            <tr>
+                <td class="align_left">
+                    <code class="tt">li</code>
+                </td>
+                <td class="align_left">list item</td>
+                <td class="align_left">include a list item (ordered or unordered)</td>
+            </tr>
+            <tr>
+                <td class="align_left">
+                    <code class="tt">blockquote</code>
+                </td>
+                <td class="align_left">block quotation</td>
+                <td class="align_left">show formatted quotation</td>
+            </tr>
+            <tr>
+                <td class="align_left">
+                    <code class="tt">br</code>
+                </td>
+                <td class="align_left">break</td>
+                <td class="align_left">enter line break</td>
+            </tr>
+        </tbody>
     </table>
 
     <h2>Inline Elements</h2>
 
     <table>
-        <tr>
-            <th>Tag</th>
-            <th>Name</th>
-            <th>Purpose</th>
-            <th>Example</th>
-            <th>Result</th>
-        </tr>
-        <tr>
-            <td>
-                <code>em</code>
-            </td>
-            <td>emphasized</td>
-            <td>make emphasized text</td>
-            <td>
-                <code>&lt;em&gt;technical sophistication&lt;/em&gt;</code>
-            </td>
-            <td>
-                <em>technical sophistication</em>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <code>strong</code>
-            </td>
-            <td>strong</td>
-            <td>make strong text</td>
-            <td>
-                <code>&lt;strong&gt;at least a billion people&lt;/strong&gt;</code>
-            </td>
-            <td>
-                <strong>at least a billion people</strong>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <code>a</code>
-            </td>
-            <td>anchor</td>
-            <td>make hyperlink</td>
-            <td>
-                <code>&lt;a href="http://learnenough.com/"&gt;Learn Enough&lt;/a&gt;</code>
-            </td>
-            <td>
-                <a href="https://learnenough.com/">Learn Enough</a>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <code>img</code>
-            </td>
-            <td>image</td>
-            <td>include an image</td>
-            <td>
-                <code>&lt;img src="https://bit.ly/1MZAFuQ" alt="Michael Hartl"&gt;</code>
-            </td>
-            <td>
-                <img src="https://bit.ly/1MZAFuQ" alt="Michael Hartl">
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <code>code</code>
-            </td>
-            <td>code</td>
-            <td>designed to display pieces of markup or source code</td>
-            <td>
-                <code>&lt;code&gt;like this&lt;/code&gt;</code>
-            </td>
-            <td>
-                <code>like this</code>
-            </td>
-        </tr>
+        <tbody>
+            <tr>
+                <td class="align_left">
+                    <strong>Tag</strong>
+                </td>
+                <td class="align_left">
+                    <strong>Name</strong>
+                </td>
+                <td class="align_left">
+                    <strong>Purpose</strong>
+                </td>
+                <td class="align_left">
+                    <strong>Example</strong>
+                </td>
+                <td class="align_left">
+                    <strong>Result</strong>
+                </td>
+            </tr>
+            <tr>
+                <td class="align_left">
+                    <code class="tt">em</code>
+                </td>
+                <td class="align_left">emphasized</td>
+                <td class="align_left">make emphasized text</td>
+                <td class="align_left">
+                    <code class="tt">&lt;em&gt;technical sophistication&lt;/em&gt;</code>
+                </td>
+                <td class="align_left">
+                    <em>technical sophistication</em>
+                </td>
+            </tr>
+            <tr>
+                <td class="align_left">
+                    <code class="tt">strong</code>
+                </td>
+                <td class="align_left">strong</td>
+                <td class="align_left">make strong text</td>
+                <td class="align_left">
+                    <code class="tt">&lt;strong&gt;at least a billion people&lt;/strong&gt;</code>
+                </td>
+                <td class="align_left">
+                    <strong>at least a billion people</strong>
+                </td>
+            </tr>
+            <tr>
+                <td class="align_left">
+                    <code class="tt">a</code>
+                </td>
+                <td class="align_left">anchor</td>
+                <td class="align_left">make hyperlink</td>
+                <td class="align_left">
+                    <code class="tt">&lt;a href="#"&gt; Learn Enough&lt;/a&gt;</code>
+                </td>
+                <td class="align_left">
+                    <a href="http://learnenough.com/" target="_blank" rel="noopener">Learn Enough</a>
+                </td>
+            </tr>
+            <tr>
+                <td class="align_left">
+                    <code class="tt">img</code>
+                </td>
+                <td class="align_left">image</td>
+                <td class="align_left">include an image</td>
+                <td class="align_left">
+                    <code class="tt">&lt;img src="mhartl.jpg" alt="Michael Hartl"&gt;</code>
+                </td>
+                <td class="align_left">
+                    <span>
+                        <span class="graphics">
+                            <img src="https://softcover.s3.amazonaws.com/636/learn_enough_html/images/mhartl_gravatar.jpg" alt="mhartl_gravatar">
+                        </span>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="align_left">
+                    <code class="tt">code</code>
+                </td>
+                <td class="align_left">code</td>
+                <td class="align_left">format as source code</td>
+                <td class="align_left">
+                    <code class="tt">&lt;code&gt;table&lt;/code&gt;</code>
+                </td>
+                <td class="align_left">
+                    <code class="tt">table</code>
+                </td>
+            </tr>
+            <tr>
+                <td class="align_left">
+                    <code class="tt">span</code>
+                </td>
+                <td class="align_left">span</td>
+                <td class="align_left">define inline section in document</td>
+                <td class="align_left">
+                    <code class="tt">&lt;span&gt;Call me Ishmael.&lt;/span&gt;</code>
+                </td>
+                <td class="align_left">Call me Ishmael.</td>
+            </tr>
+        </tbody>
     </table>
 
 </body>
